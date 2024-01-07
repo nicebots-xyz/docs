@@ -2,89 +2,111 @@
 title: ChatCop Bot Documentation
 description: The documentation for using the ChatCop discord Bot - ChatCop is an advanced AI moderation bot designed to keep your Discord server safe and engaged. Discover cutting-edge moderation technology with ChatCop.
 published: true
-date: 2024-01-07T17:45:02.040Z
+date: 2024-01-07T17:46:05.524Z
 tags: 
 editor: ckeditor
 dateCreated: 2023-11-26T20:34:44.687Z
 -->
 
-<h1 id="chatcop-bot-documentation" class="toc-header"> ChatCop Bot Documentation</h1>
-<p>Welcome to the ChatCop Bot Documentation. This guide will help you quickly set up and efficiently use the ChatCop Discord bot for moderation purposes.</p>
-<p>As you follow this guide, you’ll learn how to tailor ChatCop to meet your server’s specific moderation needs and discover all the powerful features it has to offer. If you have questions or need further assistance, check out the <a href="#feedback-and-support">Feedback and Support</a> section on how to get in touch with us or join the official support server.</p>
-<h2 id="quick-setup" class="toc-header"> Quick Setup</h2>
-<p>Follow these steps to get ChatCop up and running in no time:</p>
-<ol>
-<li><strong>Add ChatCop to Your Server</strong>: Use <a href="https://paill.at/ILFe2" class="is-external-link">this invitation link</a> to add the bot to your desired server.</li>
-<li><strong>Run Initial Configuration</strong>: Type <code>/mod config start</code> in your server’s chat to begin the setup wizard.</li>
-<li><strong>Moderate With Default or Custom Settings</strong>: After the initial setup, ChatCop will start moderating with default settings, which you can customize as needed.</li>
-</ol>
-<h2 id="configuration" class="toc-header"> Configuration</h2>
-<p>Configuring ChatCop is crucial for ensuring that the bot’s moderation actions fit with your server culture and rules. This section of the documentation explains how you can adjust the bot’s behavior to reflect the needs and norms of your community.</p>
-<h3 id="initial-configuration" class="toc-header"> Initial Configuration</h3>
-<ul>
-<li><strong>Access Configuration</strong>: Use the <code>/mod config start</code> command to access the configuration menu and set up initial settings.</li>
-<li><strong>Notification Channel</strong>: Specify a channel for the bot to send moderation notifications.</li>
-</ul>
-<h3 id="advanced-configuration" class="toc-header"> Advanced Configuration</h3>
-<ul>
-<li><strong>Enabling/Disabling Moderation</strong>: You have control over the bot’s moderation features and can turn them on or off as needed using <code>/mod enable</code> or <code>/mod disable</code>.</li>
-<li><strong>Warning and Deletion Thresholds</strong>: Use the <code>/mod config warn</code> and <code>/mod config delete</code> commands to set precise thresholds for various toxic behaviors, like profanity or spam.</li>
-<li><strong>Set Logs Channel</strong>: Use <code>/mod config channel</code> to direct where the bot will send moderation logs.</li>
-<li><strong>Ignore Role</strong>: With the <code>/mod config ignore_role</code> command, you can make ChatCop ignore users with a specific role for automatic moderation. This is useful for exempting moderators, VIPs, or specific groups from automatic moderation. Toggle the ignore function for a role by running the command once to activate and again to deactivate. Use <code>/mod config info</code> to view current settings.</li>
-</ul>
-<p>In the next sections, you’ll learn about the commands you can use to interact with ChatCop and how to manage moderation actions effectively.</p>
-<h2 id="commands" class="toc-header"> Commands</h2>
-<p>Using ChatCop effectively involves understanding the various commands you can use to control its behavior and moderation capabilities. This section will outline each command, provide a description, and offer examples of their usage.</p>
-<h3 id="core-commands" class="toc-header"> Core Commands</h3>
-<ul>
-<li><code>/mod config start</code>: Initiates the setup wizard to configure the bot for first-time use.</li>
-<li><code>/mod config info</code>: Displays the bot’s current configuration settings.</li>
-<li><code>/mod help</code>: Shows a list of all the commands and their descriptions.</li>
-</ul>
-<h3 id="moderation-threshold-commands" class="toc-header"> Moderation Threshold Commands</h3>
-<ul>
-<li><code>/mod config warn key:value</code>: Set the threshold for issuing a warning based on a specific type of behavior.</li>
-<li><code>/mod config delete key:value</code>: Set the threshold for deleting messages based on a specific type of behavior.</li>
-</ul>
-<h3 id="log-and-channel-configuration" class="toc-header"> Log and Channel Configuration</h3>
-<ul>
-<li><code>/mod config channel</code>: Sends a wizard for assigning the channel for the bot to post moderation logs.</li>
-<li><code>/mod history user:user</code>: See the history of all the actions taken upon a user. This is a premium command, see more under <a href="#premium">Premium</a>.</li>
-</ul>
-<h3 id="moderation-controls" class="toc-header"> Moderation Controls</h3>
-<ul>
-<li><code>/mod enable</code>: Enables the bot’s automatic moderation features.</li>
-<li><code>/mod disable</code>: Disables the bot’s automatic moderation features.</li>
-</ul>
-<h3 id="role-management" class="toc-header"> Role management</h3>
-<ul>
-<li><code>/mod config ignore_role</code>: Use this command to make ChatCop ignore users with a specific role for automatic moderation. This is particularly useful for exempting certain roles like moderators or VIP members from automated moderation actions. To activate or deactivate this setting for a role, simply run the command with the role specified. You can always see the current status with <code>/mod config info</code>.This is a premium command, see more under <a href="#premium">Premium</a>.</li>
-</ul>
-<h3 id="voting-commands" class="toc-header"> Voting Commands</h3>
-<ul>
-<li><code>/vote info</code>: See how to vote, and your number of premium tokens.</li>
-<li><code>/vote give</code>: Give two day of premium subscription to the server you run the command in in exchange of one token.</li>
-</ul>
-<p>More information under <a href="#premium">Premium</a>.</p>
-<p>Each command includes options and parameters that allow for fine control over how ChatCop moderates your server. Understanding and utilizing these commands will empower you to maintain a positive and healthy community.</p>
-<h2 id="moderation-actions" class="toc-header"> Moderation Actions</h2>
-<p>ChatCop offers a set of moderation tools that automatically handle inappropriate activities on your server according to predefined thresholds and settings.</p>
-<h3 id="warnings" class="toc-header"> Warnings</h3>
-<p>Messages meeting certain thresholds of toxicity will trigger ChatCop to delete messages, guiding the users towards healthier interaction patterns.</p>
+# ChatCop Bot Documentation
+
+Welcome to the ChatCop Bot Documentation. This guide will help you quickly set up and efficiently use the ChatCop Discord bot for moderation purposes.
+
+
+As you follow this guide, you’ll learn how to tailor ChatCop to meet your server’s specific moderation needs and discover all the powerful features it has to offer. If you have questions or need further assistance, check out the [Feedback and Support](#feedback-and-support) section on how to get in touch with us or join the official support server.
+
+## Quick Setup
+
+Follow these steps to get ChatCop up and running in no time:
+
+1.  **Add ChatCop to Your Server**: Use [this invitation link](https://paill.at/ILFe2) to add the bot to your desired server.
+2.  **Run Initial Configuration**: Type `/mod config start` in your server’s chat to begin the setup wizard.
+3.  **Moderate With Default or Custom Settings**: After the initial setup, ChatCop will start moderating with default settings, which you can customize as needed.
+
+## Configuration
+
+Configuring ChatCop is crucial for ensuring that the bot’s moderation actions fit with your server culture and rules. This section of the documentation explains how you can adjust the bot’s behavior to reflect the needs and norms of your community.
+
+### Initial Configuration
+
+-   **Access Configuration**: Use the `/mod config start` command to access the configuration menu and set up initial settings.
+-   **Notification Channel**: Specify a channel for the bot to send moderation notifications.
+
+### Advanced Configuration
+
+-   **Enabling/Disabling Moderation**: You have control over the bot’s moderation features and can turn them on or off as needed using `/mod enable` or `/mod disable`.
+-   **Warning and Deletion Thresholds**: Use the `/mod config warn` and `/mod config delete` commands to set precise thresholds for various toxic behaviors, like profanity or spam.
+-   **Set Logs Channel**: Use `/mod config channel` to direct where the bot will send moderation logs.
+-   **Ignore Role**: With the `/mod config ignore_role` command, you can make ChatCop ignore users with a specific role for automatic moderation. This is useful for exempting moderators, VIPs, or specific groups from automatic moderation. Toggle the ignore function for a role by running the command once to activate and again to deactivate. Use `/mod config info` to view current settings. 
+
+In the next sections, you’ll learn about the commands you can use to interact with ChatCop and how to manage moderation actions effectively.
+
+## Commands
+
+Using ChatCop effectively involves understanding the various commands you can use to control its behavior and moderation capabilities. This section will outline each command, provide a description, and offer examples of their usage.
+
+### Core Commands
+
+-   `/mod config start`: Initiates the setup wizard to configure the bot for first-time use.
+-   `/mod config info`: Displays the bot’s current configuration settings.
+-   `/mod help`: Shows a list of all the commands and their descriptions.
+
+### Moderation Threshold Commands
+
+-   `/mod config warn key:value`: Set the threshold for issuing a warning based on a specific type of behavior.
+-   `/mod config delete key:value`: Set the threshold for deleting messages based on a specific type of behavior.
+
+### Log and Channel Configuration
+
+-   `/mod config channel`: Sends a wizard for assigning the channel for the bot to post moderation logs.
+-   `/mod history user:user`: See the history of all the actions taken upon a user. This is a premium command, see more under [Premium](#premium).
+
+### Moderation Controls
+
+-   `/mod enable`: Enables the bot’s automatic moderation features.
+-   `/mod disable`: Disables the bot’s automatic moderation features.
+
+### Role management
+-   `/mod config ignore_role`: Use this command to make ChatCop ignore users with a specific role for automatic moderation. This is particularly useful for exempting certain roles like moderators or VIP members from automated moderation actions. To activate or deactivate this setting for a role, simply run the command with the role specified. You can always see the current status with `/mod config info`.This is a premium command, see more under [Premium](#premium).
+
+### Voting Commands
+
+-   `/vote info`: See how to vote, and your number of premium tokens.
+-   `/vote give`: Give two day of premium subscription to the server you run the command in in exchange of one token.
+
+More information under [Premium](#premium).
+
+Each command includes options and parameters that allow for fine control over how ChatCop moderates your server. Understanding and utilizing these commands will empower you to maintain a positive and healthy community.
+
+
+## Moderation Actions
+
+ChatCop offers a set of moderation tools that automatically handle inappropriate activities on your server according to predefined thresholds and settings.
+
+### Warnings
+
+Messages meeting certain thresholds of toxicity will trigger ChatCop to delete messages, guiding the users towards healthier interaction patterns.
+
 <discord-messages class="discord-messages">
-            <discord-message profile="chatcop" highlight="">
+            <discord-message profile="chatcop" highlight>
                 <discord-reply slot="reply" profile="deleted-message"><discord-italic>original message was deleted</discord-italic></discord-reply>
-                <discord-embed slot="embeds" color="#ed4245" embed-title="Your message got moderated" thumbnail="https://nicebots.xyz/static/assets/featured-bots/ChatCop/profile-picture.png">
+                <discord-embed slot="embeds" color="#ed4245" embed-title="Your message got moderated"
+                    thumbnail="https://nicebots.xyz/static/assets/featured-bots/ChatCop/profile-picture.png">
                     <discord-embed-description slot="description">
                         Your message was moderated by automoderation. If you believe this was a mistake, please contact the server moderators.
                     </discord-embed-description>
                 </discord-embed>
             </discord-message>
         </discord-messages>
-<h3 id="message-deletion" class="toc-header"> Message Deletion</h3>
-<p>ChatCop detects and removes messages that violate specified thresholds of toxic behavior like treath or insult, supporting a safer chat environment.</p>
-<h3 id="timeouts-and-user-bans" class="toc-header"> Timeouts and User Bans</h3>
-<p>Upon larger infractions, <strong>you</strong> can temporarily restrict user abilities to post messages (timeouts) or, if necessary, remove users from the server thanks to the easy to use buttons below the infraction notifications.</p>
+
+### Message Deletion
+
+ChatCop detects and removes messages that violate specified thresholds of toxic behavior like treath or insult, supporting a safer chat environment.
+
+### Timeouts and User Bans
+
+Upon larger infractions, **you** can temporarily restrict user abilities to post messages (timeouts) or, if necessary, remove users from the server thanks to the easy to use buttons below the infraction notifications.
+
 <discord-messages class="discord-messages">
                 <discord-message profile="chatcop">
                     <discord-embed slot="embeds" color="#ed4245" embed-title="Deleted message" class="w-full">
@@ -113,54 +135,56 @@ dateCreated: 2023-11-26T20:34:44.687Z
                     </discord-action-row>
                 </discord-message>
             </discord-messages>
-<h3 id="user-history-tracking" class="toc-header"> User History Tracking</h3>
-<p>ChatCop keeps a detailed history of each user’s actions in regard to moderation, allowing server administrators to review previous infractions and actions taken by the bot. This ensures transparency and lets admins make informed decisions for future moderation policies.</p>
-<p>This is a premium command, please see <a href="#premium">Premium</a> to know more.</p>
-<h2 id="premium" class="toc-header"> Premium</h2>
-<p>Some commands or features, known as <em>premium</em>, need your guild to have an active premium state to work. For this you have two options:</p>
-<ol>
-<li>Vote for us on top.gg then redeem your tokens in the server you want to upgrade as explained in <code>/vote info</code>.</li>
-<li><em>coming soon</em> Subscribe actively to our service monthly.</li>
-</ol>
-<h2 id="feedback-and-support" class="toc-header"> Feedback and Support</h2>
-<p>If you encounter issues with ChatCop or have suggestions to improve the bot, consider using the following channels for assistance or to share your feedback:</p>
-<ul>
-<li><a href="https://paill.at/sbE4f" class="is-external-link"><strong>Discord Support Server</strong></a>: The best place for support is our official Discord server. Here, you can get immediate help from the community and the support team.</li>
-<li><strong>Email</strong>: For more in-depth inquiries or to convey detailed feedback, email us at <a href="mailto:hello@nicebots.xyz">hello@nicebots.xyz</a>.</li>
-</ul>
-<p>Your feedback is valuable as it helps improve ChatCop for everyone. Thank you for contributing to a better moderation experience.</p>
-<h2 id="frequently-asked-questions-faqs" class="toc-header"> Frequently Asked Questions (FAQs)</h2>
-<p>This section addresses some of the most common questions and concerns users might have when using ChatCop.</p>
-<h3 id="general-questions" class="toc-header"> General Questions</h3>
-<ul>
-<li>
-<p><strong>Q: How do I add ChatCop to my server?</strong><br>
-A: Follow <a href="https://paill.at/ILFe2" class="is-external-link">this link</a> to invite ChatCop to your server.</p>
-</li>
-<li>
-<p><strong>Q: How can I change the moderation settings?</strong><br>
-A: Use the <code>/mod config</code> commands to access and modify various moderation settings such as thresholds and notification channels.</p>
-</li>
-</ul>
-<h3 id="moderation" class="toc-header"> Moderation</h3>
-<ul>
-<li>
-<p><strong>Q: What does it mean when a message is deleted?</strong><br>
-A: ChatCop automatically deletes messages that surpass the configured deletion thresholds for toxic behavior.</p>
-</li>
-<li>
-<p><strong>Q: Can I undo a moderation action taken by ChatCop?</strong><br>
-A: While actions like message deletions cannot be undone, you can disable message deletion by setting the delete values to 1 with <code>/mod config delete</code>.</p>
-</li>
-</ul>
-<h3 id="troubleshooting" class="toc-header"> Troubleshooting</h3>
-<ul>
-<li>
-<p><strong>Q: What if ChatCop is moderating too strictly or too leniently?</strong><br>
-A: Fine-tune the warning and deletion thresholds using the <code>/mod config</code> commands to adjust how sensitively ChatCop responds to potential infractions.</p>
-</li>
-<li>
-<p><strong>Q: ChatCop is not working as expected, what should I do?</strong><br>
-A: Ensure ChatCop has the necessary permissions in your server settings, and that the bot is enabled using <code>/mod enable</code> and a notification channel is set with <code>/mod config channel</code>. For further assistance, reach out on the <a href="https://paill.at/sbE4f" class="is-external-link">support server</a>.</p>
-</li>
-</ul>
+
+
+### User History Tracking
+
+ChatCop keeps a detailed history of each user’s actions in regard to moderation, allowing server administrators to review previous infractions and actions taken by the bot. This ensures transparency and lets admins make informed decisions for future moderation policies.
+
+This is a premium command, please see [Premium](#premium) to know more.
+
+## Premium
+
+Some commands or features, known as *premium*, need your guild to have an active premium state to work. For this you have two options:
+
+1. Vote for us on top.gg then redeem your tokens in the server you want to upgrade as explained in `/vote info`.
+2. *coming soon* Subscribe actively to our service monthly.
+
+## Feedback and Support
+
+If you encounter issues with ChatCop or have suggestions to improve the bot, consider using the following channels for assistance or to share your feedback:
+
+-   [**Discord Support Server**](https://paill.at/sbE4f): The best place for support is our official Discord server. Here, you can get immediate help from the community and the support team.
+-   **Email**: For more in-depth inquiries or to convey detailed feedback, email us at [hello@nicebots.xyz](mailto:hello@nicebots.xyz).
+
+Your feedback is valuable as it helps improve ChatCop for everyone. Thank you for contributing to a better moderation experience.
+
+## Frequently Asked Questions (FAQs)
+
+This section addresses some of the most common questions and concerns users might have when using ChatCop.
+
+### General Questions
+
+-   **Q: How do I add ChatCop to my server?**  
+    A: Follow [this link](https://paill.at/ILFe2) to invite ChatCop to your server.
+    
+-   **Q: How can I change the moderation settings?**  
+    A: Use the `/mod config` commands to access and modify various moderation settings such as thresholds and notification channels.
+    
+
+### Moderation
+
+-   **Q: What does it mean when a message is deleted?**  
+    A: ChatCop automatically deletes messages that surpass the configured deletion thresholds for toxic behavior.
+    
+-   **Q: Can I undo a moderation action taken by ChatCop?**  
+    A: While actions like message deletions cannot be undone, you can disable message deletion by setting the delete values to 1 with `/mod config delete`.
+    
+
+### Troubleshooting
+
+-   **Q: What if ChatCop is moderating too strictly or too leniently?**  
+    A: Fine-tune the warning and deletion thresholds using the `/mod config` commands to adjust how sensitively ChatCop responds to potential infractions.
+    
+-   **Q: ChatCop is not working as expected, what should I do?**  
+    A: Ensure ChatCop has the necessary permissions in your server settings, and that the bot is enabled using `/mod enable` and a notification channel is set with `/mod config channel`. For further assistance, reach out on the [support server](https://paill.at/sbE4f).
