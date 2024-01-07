@@ -1,15 +1,14 @@
 ---
 title: ChatCop Bot Documentation
-description: The documentation for using the ChatCop discord Bot - ChatCop is an advanced AI moderation bot designed to keep your Discord server safe and engaged. Discover cutting-edge moderation technology with ChatCop.
+description: Docs for ChatCop
 published: true
-date: 2024-01-07T17:47:55.892Z
+date: 2024-01-07T22:09:44.923Z
 tags: 
 editor: markdown
 dateCreated: 2023-11-26T20:34:44.687Z
 ---
 
-# ChatCop Bot Documentation
-
+# Welcome
 Welcome to the ChatCop Bot Documentation. This guide will help you quickly set up and efficiently use the ChatCop Discord bot for moderation purposes.
 
 
