@@ -2,7 +2,7 @@
 title: NiceBots Discord Bot License Agreement Version 1.0
 description: 
 published: true
-date: 2024-01-21T22:39:11.150Z
+date: 2024-01-21T22:45:16.283Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-21T22:00:54.555Z
@@ -18,8 +18,6 @@ A copy of this license text can be found at https://docs.nicebots.xyz/en/NiceBot
 **License Agreement:**
 
 This License Agreement ("License") is between the user ("You" or "Your") and NiceBots.xyz ("Licensor"), pertaining to the Discord bot software ("Software") this License is distributed with. By using, modifying, or distributing the Software, You agree to the terms of this License. If You do not agree to the terms of this License, You may not use, modify, or distribute the Software.
-
-To reorder the definitions in the "NiceBots Discord Bot License Agreement Version 2.2" for clarity and logical flow, they can be grouped and sequenced according to related concepts. Here's a reorganized version:
 
 **1. Definitions:**
 
@@ -75,11 +73,11 @@ To reorder the definitions in the "NiceBots Discord Bot License Agreement Versio
 
 - **Commercial and Non-Profit Use**: The use of the Software for any form of Commercial Use is strictly prohibited. This prohibition extends to all forms of financial and/or economic gain, whether direct or indirect. Specifically, the Software may not be used in any context where it is provided, distributed, or otherwise made available in exchange for a fee, donation, subscription, or any other form of monetary or economic compensation. This includes, but is not limited to, scenarios such as fundraising, donations, sponsorship activities, and advertising-driven models, irrespective of whether these activities are for-profit or non-profit in nature. Furthermore, the use of the Software as part of a service or offering that charges any form of fee or requires any economic transaction, even if the Software itself is not the direct subject of the transaction, is strictly forbidden.
 - **Third-Party Access and Usage Limitation**: The Software may only be used by entities directly represented by You, as per the definition of "Entities Represented by You" in Section 1 of this License.
-- **Distribution and Sharing**: Modifications or Derivative Works must be publicly shared under the same terms of this License, applicable even when minimal portions of the Software are used.
+- **Distribution and Sharing**: Modifications or Derivative Works must be publicly shared under the same terms of this License, applicable even when minimal portions of the Software are used, and contain a copy of this license.
 
 **4. Attribution and Disclosure:**
 
-In any Public Display, Usage or Distribution of the Software or Derivative Works, especially in the Discord Bot Description, the following information must be prominently displayed, strictly adhering to the format below:
+In any Public Display, Usage or Distribution of the Software or Derivative Works, notably in the Discord Bot Description, the following information must be prominently displayed, strictly adhering to the format below:
 
 - A direct hyperlink to the original source code of the Software.
 - A direct hyperlink to the repository of Your modified version (fork).
@@ -91,7 +89,7 @@ In any Public Display, Usage or Distribution of the Software or Derivative Works
 
 **6. Copyright and License Notice:**
 
-- All copyright notices and license terms, including those in Discord Messages containing code or portions of the Software, must be maintained and publicly displayed.
+- All copyright notices and license terms, including those in Discord Messages or contained in code or portions of the Software, must be maintained and publicly displayed in all Forks.
 
 **7. Recognition for Significant Contributions:**
 
@@ -120,4 +118,4 @@ In any Public Display, Usage or Distribution of the Software or Derivative Works
 **End of License**
 
 **Copyright Notice:**
-© All Rights Reserved, NiceBots.xyz. This License text itself is protected under copyright law and may not be used or reproduced without explicit permission from NiceBots.xyz outside of being distributed with the Software.
+© All Rights Reserved, NiceBots.xyz. This License text itself is protected under copyright law and may not be used or reproduced without explicit permission from NiceBots.xyz outside of being distributed with any copy or Fork of the Software .
