@@ -2,7 +2,7 @@
 title: NiceBots Discord Bot License Agreement Version 1.0
 description: 
 published: true
-date: 2024-01-21T22:29:15.377Z
+date: 2024-01-21T22:39:11.150Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-21T22:00:54.555Z
