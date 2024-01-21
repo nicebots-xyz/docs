@@ -2,7 +2,7 @@
 title: NiceBots Discord Bot License Agreement Version 1.0
 description: 
 published: true
-date: 2024-01-21T22:03:34.839Z
+date: 2024-01-21T22:23:06.150Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-21T22:00:54.555Z
@@ -52,13 +52,13 @@ This License Agreement ("License") is between the user ("You" or "Your") and Nic
 
 **3. Restrictions:**
 
-- **Commercial and Non-Profit Use**: Any form of Commercial Use, including non-profit endeavors, is strictly prohibited. This includes use cases where the Software is used for fundraising, donations, or any form of financial gain, even if not for profit.
+- **Commercial and Non-Profit Use**: The use of the Software for any form of Commercial Use is strictly prohibited. This prohibition extends to all forms of financial and/or economic gain, whether direct or indirect. Specifically, the Software may not be used in any context where it is provided, distributed, or otherwise made available in exchange for a fee, donation, subscription, or any other form of monetary or economic compensation. This includes, but is not limited to, scenarios such as fundraising, donations, sponsorship activities, and advertising-driven models, irrespective of whether these activities are for-profit or non-profit in nature. Furthermore, the use of the Software as part of a service or offering that charges any form of fee or requires any economic transaction, even if the Software itself is not the direct subject of the transaction, is strictly forbidden.
 - **Third-Party Access and Usage Limitation**: The Software may only be used by entities directly represented by You, as per the definition of "Entities Represented by You" in Section 1 of this License.
 - **Distribution and Sharing**: Modifications or Derivative Works must be publicly shared under the same terms of this License, applicable even when minimal portions of the Software are used.
 
 **4. Attribution and Disclosure:**
 
-In any Public Display or Distribution of the Software or Derivative Works, especially in the Discord Bot Description, the following information must be prominently displayed, strictly adhering to the format below:
+In any Public Display, Usage or Distribution of the Software or Derivative Works, especially in the Discord Bot Description, the following information must be prominently displayed, strictly adhering to the format below:
 
 - A direct hyperlink to the original source code of the Software.
 - A direct hyperlink to the repository of Your modified version (fork).
