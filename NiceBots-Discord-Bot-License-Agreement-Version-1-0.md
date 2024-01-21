@@ -2,7 +2,7 @@
 title: NiceBots Discord Bot License Agreement Version 1.0
 description: 
 published: true
-date: 2024-01-21T22:45:16.283Z
+date: 2024-01-21T23:12:05.033Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-21T22:00:54.555Z
@@ -11,7 +11,7 @@ dateCreated: 2024-01-21T22:00:54.555Z
 **NiceBots Discord Bot License Agreement Version 1.0**
 A copy of this license text can be found at https://docs.nicebots.xyz/en/NiceBots-Discord-Bot-License-Agreement-Version-1-0
 
-**Summary (Not Legally Binding):** This license allows personal or internal business use and modification of the ChatCop Discord bot software, provided by NiceBots.xyz, with a strict prohibition on any commercial or economic gain, including indirect methods like fundraising or donations. All modifications must be publicly shared under the same terms, ensuring community access to advancements. Users are required to include clear attribution for any public display or derivative works, linking back to both the original and modified source. Contributions to the software grant the licensor full rights, with contributors transferring all ownership rights when their contributions are merged into the original software. Significant contributors may be acknowledged in various public formats. Any legal dispute against the license terms results in immediate termination of all rights. The license does not grant use of NiceBots.xyz's trademarks or brand names. This summary is for convenience only and not legally binding; please refer to the full license text for all terms and conditions.
+**Summary (Not Legally Binding):** This license allows personal or internal business use and modification of the Discord bot Software, provided by NiceBots.xyz, with a strict prohibition on any commercial or economic gain, including indirect methods like fundraising or donations. All modifications must be publicly shared under the same terms, ensuring community access to advancements. Users are required to include clear attribution for any public display or derivative works, linking back to both the original and modified source. Contributions to the software grant the licensor full rights, with contributors transferring all ownership rights when their contributions are merged into the original software. Significant contributors may be acknowledged in various public formats. Any legal dispute against the license terms results in immediate termination of all rights. The license does not grant use of NiceBots.xyz's trademarks or brand names. This summary is for convenience only and not legally binding; please refer to the full license text for all terms and conditions.
 
 **Notice:** The full license text below is **legally binding**. The above Summary is provided for informational purposes only.
 
