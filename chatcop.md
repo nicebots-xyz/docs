@@ -2,7 +2,7 @@
 title: ChatCop Bot Documentation
 description: Docs for ChatCop
 published: true
-date: 2024-02-06T22:32:50.993Z
+date: 2024-02-06T22:35:08.189Z
 tags: 
 editor: markdown
 dateCreated: 2023-11-26T20:34:44.687Z
@@ -178,7 +178,7 @@ This section addresses some of the most common questions and concerns users migh
     A: ChatCop automatically deletes messages that surpass the configured deletion thresholds for toxic behavior.
     
 -   **Q: Can I undo a moderation action taken by ChatCop?**  
-    A: While actions like message deletions cannot be undone, you can disable message deletion by setting the delete values to 1 with `/mod config delete`.
+    A: While actions like message deletions cannot be undone, you can disable message deletion by disabling the delete values with `/mod config thresholds`.
     
 
 ### Troubleshooting
