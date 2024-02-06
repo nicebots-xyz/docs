@@ -2,7 +2,7 @@
 title: ChatCop Bot Documentation
 description: Docs for ChatCop
 published: true
-date: 2024-01-07T22:09:44.923Z
+date: 2024-02-06T22:32:50.993Z
 tags: 
 editor: markdown
 dateCreated: 2023-11-26T20:34:44.687Z
@@ -34,7 +34,12 @@ Configuring ChatCop is crucial for ensuring that the bot’s moderation actions 
 ### Advanced Configuration
 
 -   **Enabling/Disabling Moderation**: You have control over the bot’s moderation features and can turn them on or off as needed using `/mod enable` or `/mod disable`.
--   **Warning and Deletion Thresholds**: Use the `/mod config warn` and `/mod config delete` commands to set precise thresholds for various toxic behaviors, like profanity or spam.
+-   **Moderation Sensitivity Settings**: Customize the bot's sensitivity to different types of behavior using the `/mod config thresholds` command. Choose from various levels:
+	- Very Sensitive: Ideal for servers that require very clean chats, with a threshold of 0.2.
+	- Sensitive: Tighter control without being overly strict, with a threshold of 0.4.
+	- Normal: Balanced moderation, recommended for warnings, with a threshold of 0.6.
+	- Relaxed: A more lenient approach, recommended for message deletion, with a threshold of 0.8.
+	- Disabled: No moderation based on this behavior.set precise thresholds for various toxic behaviors, like profanity or spam.
 -   **Set Logs Channel**: Use `/mod config channel` to direct where the bot will send moderation logs.
 -   **Ignore Role**: With the `/mod config ignore_role` command, you can make ChatCop ignore users with a specific role for automatic moderation. This is useful for exempting moderators, VIPs, or specific groups from automatic moderation. Toggle the ignore function for a role by running the command once to activate and again to deactivate. Use `/mod config info` to view current settings. 
 
@@ -51,9 +56,9 @@ Using ChatCop effectively involves understanding the various commands you can us
 -   `/mod help`: Shows a list of all the commands and their descriptions.
 
 ### Moderation Threshold Commands
-
--   `/mod config warn key:value`: Set the threshold for issuing a warning based on a specific type of behavior.
--   `/mod config delete key:value`: Set the threshold for deleting messages based on a specific type of behavior.
+-   `/mod config thresholds mode:<warn | delete> threshold:key value`: To adapt a thershold for a given mode (warning or deletion). See more under [Configuration](#Configuration).
+-   `/mod config advanced_warn key:value`: Set the threshold for issuing a warning based on a specific type of behavior. This is a premium command, see more under [Premium](#premium).
+-   `/mod config advanced_delete key:value`: Set the threshold for deleting messages based on a specific type of behavior. This is a premium command, see more under [Premium](#premium).
 
 ### Log and Channel Configuration
 
@@ -82,7 +87,7 @@ Each command includes options and parameters that allow for fine control over ho
 
 ChatCop offers a set of moderation tools that automatically handle inappropriate activities on your server according to predefined thresholds and settings.
 
-### Warnings
+### Message Deletion
 
 Messages meeting certain thresholds of toxicity will trigger ChatCop to delete messages, guiding the users towards healthier interaction patterns.
 
@@ -97,10 +102,6 @@ Messages meeting certain thresholds of toxicity will trigger ChatCop to delete m
                 </discord-embed>
             </discord-message>
         </discord-messages>
-
-### Message Deletion
-
-ChatCop detects and removes messages that violate specified thresholds of toxic behavior like treath or insult, supporting a safer chat environment.
 
 ### Timeouts and User Bans
 
