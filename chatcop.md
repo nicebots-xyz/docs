@@ -2,7 +2,7 @@
 title: ChatCop Bot Documentation
 description: Docs for ChatCop
 published: true
-date: 2024-02-06T22:35:08.189Z
+date: 2024-02-06T22:45:58.073Z
 tags: 
 editor: markdown
 dateCreated: 2023-11-26T20:34:44.687Z
@@ -184,7 +184,7 @@ This section addresses some of the most common questions and concerns users migh
 ### Troubleshooting
 
 -   **Q: What if ChatCop is moderating too strictly or too leniently?**  
-    A: Fine-tune the warning and deletion thresholds using the `/mod config` commands to adjust how sensitively ChatCop responds to potential infractions.
+    A: Fine-tune the warning and deletion thresholds using the `/mod config thresholds` command to adjust how sensitively ChatCop responds to potential infractions.
     
 -   **Q: ChatCop is not working as expected, what should I do?**  
     A: Ensure ChatCop has the necessary permissions in your server settings, and that the bot is enabled using `/mod enable` and a notification channel is set with `/mod config channel`. For further assistance, reach out on the [support server](https://paill.at/sbE4f).
