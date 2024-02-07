@@ -2,7 +2,7 @@
 title: ChatCop Bot Documentation
 description: Docs for ChatCop
 published: true
-date: 2024-02-06T22:45:58.073Z
+date: 2024-02-07T14:26:41.545Z
 tags: 
 editor: markdown
 dateCreated: 2023-11-26T20:34:44.687Z
@@ -56,7 +56,7 @@ Using ChatCop effectively involves understanding the various commands you can us
 -   `/mod help`: Shows a list of all the commands and their descriptions.
 
 ### Moderation Threshold Commands
--   `/mod config thresholds mode:<warn | delete> threshold:key value`: To adapt a thershold for a given mode (warning or deletion). See more under [Configuration](#Configuration).
+-   `/mod config thresholds mode:<warn | delete> threshold:key value`: To adapt a thershold for a given mode (warning or deletion). See more under [Configuration](#configuration).
 -   `/mod config advanced_warn key:value`: Set the threshold for issuing a warning based on a specific type of behavior. This is a premium command, see more under [Premium](#premium).
 -   `/mod config advanced_delete key:value`: Set the threshold for deleting messages based on a specific type of behavior. This is a premium command, see more under [Premium](#premium).
 
