@@ -2,13 +2,13 @@
 title: ChatCop Bot Documentation
 description: Docs for ChatCop
 published: true
-date: 2024-04-13T17:43:54.226Z
+date: 2024-04-13T18:41:26.028Z
 tags: 
 editor: markdown
 dateCreated: 2024-04-13T17:42:30.968Z
 ---
 
-# ChatCop Bot Documentation
+# ChatCop Wiki
 
 Welcome to the updated and comprehensive ChatCop Bot Documentation. Here, we provide detailed guidance to help you seamlessly integrate ChatCop into your Discord server, ensuring a safe, respectful, and engaging community environment. ChatCop, with its sophisticated moderation capabilities, offers a wide range of customizable settings to match your server's unique culture and rules. Whether you're looking to fine-tune automatic moderation or leverage manual controls for specific situations, this documentation will assist you every step of the way.
 
