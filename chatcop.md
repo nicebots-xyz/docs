@@ -1,8 +1,8 @@
 ---
-title: ChatCop Bot Documentation
-description: Docs for ChatCop
+title: ChatCop Bot Wiki
+description: Wiki on how to use the ChatCop discord bot
 published: true
-date: 2024-04-13T18:41:26.028Z
+date: 2024-04-16T13:08:54.644Z
 tags: 
 editor: markdown
 dateCreated: 2024-04-13T17:42:30.968Z
