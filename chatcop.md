@@ -2,7 +2,7 @@
 title: ChatCop Bot Wiki
 description: Wiki on how to use the ChatCop discord bot
 published: true
-date: 2024-04-16T13:08:54.644Z
+date: 2024-04-19T13:43:12.772Z
 tags: 
 editor: markdown
 dateCreated: 2024-04-13T17:42:30.968Z
@@ -24,7 +24,7 @@ Our commitment to continuous improvement means that your feedback directly influ
 
 Setting up ChatCop on your server is a straightforward process designed to get you up and running in no time. Follow these steps to quickly integrate ChatCop into your community:
 
-1. **Invite ChatCop to Your Server**: Begin by adding ChatCop to your server using [this invitation link](https://paill.at/ILFe2). The link will guide you through the necessary permissions ChatCop requires to effectively moderate your server.
+1. **Invite ChatCop to Your Server**: Begin by adding ChatCop to your server using [this invitation link](https://paill.at/Lk03X). The link will guide you through the necessary permissions ChatCop requires to effectively moderate your server.
 
 2. **Initiate the Setup Wizard**: Once ChatCop is part of your server, it's time to configure it to suit your moderation needs. Type `/mod config start` in a server channel to launch the interactive setup wizard. This step-by-step guide will help you through the initial configuration process, covering basic settings such as moderation sensitivity and notification preferences.
 
@@ -90,7 +90,7 @@ We encourage you to utilize these resources not only for support but also to sha
 ### General Questions
 
 - **Q: How do I get started with ChatCop on my server?**
-  - A: Simply invite ChatCop to your server using [this invitation link](https://paill.at/ILFe2), and use the `/mod config start` command to begin the setup wizard. This will guide you through the initial configuration process.
+  - A: Simply invite ChatCop to your server using [this invitation link](https://paill.at/Lk03X), and use the `/mod config start` command to begin the setup wizard. This will guide you through the initial configuration process.
 
 - **Q: Can ChatCop moderate messages in real-time?**
   - A: Yes, ChatCop is designed to monitor and moderate chat messages in real-time, based on the thresholds and settings you've configured.
