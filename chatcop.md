@@ -2,7 +2,7 @@
 title: ChatCop Bot Wiki
 description: Wiki on how to use the ChatCop discord bot
 published: true
-date: 2024-04-19T13:43:12.772Z
+date: 2024-06-26T18:52:35.200Z
 tags: 
 editor: markdown
 dateCreated: 2024-04-13T17:42:30.968Z
@@ -68,7 +68,9 @@ Miscellaneous commands provide additional functionalities and access to informat
 
 ChatCop Boost commands unlock the full potential of ChatCop's moderation capabilities. These advanced features, accessible through a Boost subscription, offer unparalleled control and customization for server administrators.
 
-- `/vote info`: Provides information on how to support ChatCop through community voting and the benefits it brings, including access to ChatCop Boost features.
+- `/boost vote info`: Provides information on how to support ChatCop through community voting and the benefits it brings, including access to ChatCop Boost features.
+
+- `/boost vote give`: Give two days of boost features to your server after voting for it with `/boost vote info`
 
 - `/boost subscribe`: Offers details on subscribing to ChatCop Boost, including pricing and the additional features it unlocks. This command also guides you through the process of activating your ChatCop Boost subscription.
 
@@ -115,7 +117,7 @@ We encourage you to utilize these resources not only for support but also to sha
   - A: ChatCop Boost provides advanced features such as role-specific moderation exemptions, mod notifications, user history tracking, and customizable thresholds for warnings and deletions.
 
 - **Q: How can I subscribe to ChatCop Boost or access it for free?**
-  - A: You can subscribe to ChatCop Boost using the `/boost subscribe` command. Alternatively, you can support ChatCop through community voting and redeem voting rewards for ChatCop Boost access as explained in the `/vote info` command.
+  - A: You can subscribe to ChatCop Boost using the `/boost subscribe` command. Alternatively, you can support ChatCop through community voting and redeem voting rewards for ChatCop Boost access as explained in the `/boost vote info` command.
 
 ### Troubleshooting
 
